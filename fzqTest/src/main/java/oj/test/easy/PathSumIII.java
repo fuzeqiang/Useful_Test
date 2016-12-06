@@ -38,4 +38,20 @@ public class PathSumIII {
 
         return 0;
     }
+
+    public int test(TreeNode parent, TreeNode node, int sum, int valSum) {
+        if (null == node) {
+            return 0;
+        }
+        valSum += node.val;
+        if (sum == valSum) {
+
+        }
+
+        return 0;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(1000000 * 1000);
+    }
 }
